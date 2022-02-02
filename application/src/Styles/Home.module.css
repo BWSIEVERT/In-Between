@@ -1,0 +1,385 @@
+/* HEADER */
+
+.header_container {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-image: url('../../public/images/headerbgv2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+
+    background-color: #000000;
+}
+
+.header_inner_container {
+    height: 90%;
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.header_title {
+    height: auto;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_title h1 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 55px;
+
+    margin: 0;
+}
+
+.header_sub {
+    height: auto;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_sub p {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.header_cta {
+    height: auto;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_cta button {
+    border: 1px solid white;
+    background-color: transparent;
+    color: #ffffff;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: 1s ease-in-out;
+}
+
+.header_cta button:hover {
+    transition: 1s ease-in-out;
+    background-color: #ffffff;
+    color: #000000
+}
+
+.social_container {
+    height: 5vh;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid white; */
+}
+
+.social_item {
+    height: 100%;
+    width: 75%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter {
+    transition: .7s ease-in-out;
+    color: #ffffff;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.twitter:hover {
+    transition: .7s ease-in-out;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+
+/* SECTION ONE START */
+
+.scone_container {
+    height: 50vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000000;
+}
+
+.scone_inner_container {
+    height: 75%;
+    width: 60%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scone_text_container {
+    height: 90%;
+    width: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    flex-direction: column;
+}
+
+.scone_badge {
+    height: 20px;
+    width: 70px;
+    border: 1px solid #855EB2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 4%;
+
+    border-radius: 3px;
+
+    background-color: #855EB2;
+}
+
+.scone_badge span {
+    color: #ffffff;
+    font-family: "RaleWay";
+    font-size: 12px;
+
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.scone_title {
+    height: auto;
+    width: 80%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.scone_title h2 {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    
+    margin: 0;
+}
+
+.scone_subtitle {
+    height: 10%;
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.scone_subtitle h5 {
+    color: #666666;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.scone_description {
+    height: 30%;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin: 0;
+    padding: 0;
+}
+
+.scone_description p {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.scone_lottie_container {
+    height: 90%;
+    width: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECTION ONE END */
+
+/* SECTION TWO START */
+
+.sctwo_container {
+    height: 50vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000000;
+}
+
+.sctwo_inner_container {
+    height: 75%;
+    width: 60%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sctwo_text_container {
+    height: 90%;
+    width: 45%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    flex-direction: column;
+}
+
+.sctwo_badge {
+    height: 20px;
+    width: 50px;
+    border: 1px solid #855EB2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 4%;
+
+    border-radius: 3px;
+
+    background-color: #855EB2;
+}
+
+.sctwo_badge span {
+    color: #ffffff;
+    font-family: "RaleWay";
+    font-size: 12px;
+
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.sctwo_title {
+    height: 12%;
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+.sctwo_title h2 {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    
+    margin: 0;
+}
+
+.sctwo_subtitle {
+    height: 10%;
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+.sctwo_subtitle h5 {
+    color: #666666;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sctwo_description {
+    height: 30%;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin: 0;
+    padding: 0;
+}
+
+.sctwo_description p {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.sctwo_lottie_container {
+    height: 90%;
+    width: 45%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+/* SECTION TWO END */
